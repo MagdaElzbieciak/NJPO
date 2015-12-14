@@ -5,6 +5,9 @@
  */
 package Dekorator;
 
+import Kolekcje.GUI;
+import Kolekcje.Ksiazka;
+import Kolekcje.Test;
 import java.awt.Point;
 import java.util.Arrays;
 import java.util.logging.Level;
@@ -19,7 +22,7 @@ public class Main {
     /**
      * @param args the command line arguments
      */
-    public static boolean kolizja(Uzytkownik u1, Uzytkownik u2, Uzytkownik u3){
+    /*public static boolean kolizja(Uzytkownik u1, Uzytkownik u2, Uzytkownik u3){
         
         Point p1 = u1.getPoint();
         Point p2 = u2.getPoint();
@@ -32,12 +35,20 @@ public class Main {
         if(p2.x == p3.x && p2.y == p3.y)
             return true;
         return false;
-    }
+    }*/
     
     public static void main(String[] args) {
+        
+        
+        
         // TODO code application logic here
         
-        char[][] tab  = new char[Uzytkownik.rozmiarx][Uzytkownik.rozmiary];
+        //GUI g = new GUI();  //częstośc występowania
+        
+        //Ksiazka k = new Ksiazka();
+        new Test();
+        
+        /*char[][] tab  = new char[Uzytkownik.rozmiarx][Uzytkownik.rozmiary];
         for(int i = 0; i<Uzytkownik.rozmiarx; Arrays.fill(tab[i++], '='));
         
         Uzytkownik pieszy = new Pieszy();
@@ -77,7 +88,7 @@ public class Main {
                 Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
             }
             
-        }
+        }*/
     }
     /*byte[] b = new byte[512];
         Arrays.fill(b, (byte)'\n');
