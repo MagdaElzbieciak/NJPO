@@ -5,10 +5,7 @@
  */
 package Kasyno;
 
-/**
- *
- * @author Danuta
- */
+
 public class Kasyno {
     
     private static Kasyno instance;
@@ -32,7 +29,7 @@ public int getStanKonta(){
 
 public void setStanKonta(int stan_konta){
     
-    stan_konta = stan_konta;
+    this.stan_konta = stan_konta;
 }
 
 public void WygranaWBlackJacka(){
