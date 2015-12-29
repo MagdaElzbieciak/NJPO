@@ -130,7 +130,7 @@ public class KsiazkaBaza extends JFrame implements ActionListener{
   
         }
         
-         
+         s.close();
     }
     
     public void odczyt(){
